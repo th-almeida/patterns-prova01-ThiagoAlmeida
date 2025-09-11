@@ -1,4 +1,4 @@
-# Design Patterns Example
+# Design Patterns Examples
 
 Examples about some design patterns
 
