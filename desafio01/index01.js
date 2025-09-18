@@ -1,1 +1,3 @@
-console.log("Hello, World! 001");
+import "./solutionFactory.js";
+
+

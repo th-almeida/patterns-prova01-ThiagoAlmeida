@@ -1,1 +1,3 @@
-console.log("Hello, World! 002");
+import "./solutionSingleton.js";
+
+
