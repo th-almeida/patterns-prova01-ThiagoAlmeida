@@ -10,7 +10,11 @@
     "problem_abstract": "node desafio01/problemAbstract.js",
     "problem_factory": "node desafio01/problemFactory.js",
     "problem_builder": "node desafio01/problemBuilder.js",
-    "problem_singleton": "node desafio01/problemSingleton.js"
+    "problem_singleton": "node desafio01/problemSingleton.js",
+    "solution_abstract": "node desafio01/solutionAbstract.js",
+    "solution_factory": "node desafio01/solutionFactory.js",
+    "solution_builder": "node desafio01/solutionBuilder.js",
+    "solution_singleton": "node desafio01/solutionSingleton.js"
   },
   "author": "Ugioni",
   "license": "MIT"
