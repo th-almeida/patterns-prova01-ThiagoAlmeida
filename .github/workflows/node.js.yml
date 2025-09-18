@@ -20,7 +20,6 @@ jobs:
         node-version: 22
         cache: 'npm'    
     - run: npm install      
-    - run: npm run start01
     - run: npm run solution_abstract
     - run: npm run solution_factory
 
@@ -35,6 +34,5 @@ jobs:
         node-version: 22
         cache: 'npm'    
     - run: npm install      
-    - run: npm run start02
     - run: npm run solution_builder
     - run: npm run solution_singleton
