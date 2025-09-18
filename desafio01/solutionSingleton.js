@@ -16,10 +16,14 @@ class Config {
   }
 }
 
-const c1 = new Config();
-c1.setConfig("lang", "pt-BR");
+const Global = Object.freeze({ config: new Config() });
 
-const c2 = new Config();
+const c1 = Global.config;
+c1.setConfig("lang", "pt-BR");
+c1.setConfig("tema", "dark");
+
+const c2 = Global.config;
 console.log(c2.getConfig("lang"));
+console.log(c2.getConfig("tema"));
 
 
